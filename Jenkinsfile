@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/nguyenjm'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-nguyenjm/225-lab3-5-nguyenjm'                                          //<------change this
-        KUBECONFIG = credentials('nguyenjm-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('nguyenjm-225')                                                         //<------change this
     }
 
     stages {
